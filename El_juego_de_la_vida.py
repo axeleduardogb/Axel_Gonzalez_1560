@@ -1,23 +1,4 @@
-#El juego de la vida
-"""del tipo Zero-player
-Creado por john h. conway(1970)
-Ejemplifica, el ascenso, caida y alternancia de seres vivos
 
-Reglas:
-1.- si una celula esta viva y tiene dos o 3 vecinos vivos, la celula sobrevive a
-    la siguiente generacion. Los vecinos son las 8 celulas que la rodean inmediatamente 
-    tanto en vertical, horizontal, diagonal if celula == 3  (implicita)
-    
-2.- una celula que no tiene vecinos vivos o que tiene un solo vecino vivo, muere por  
-    soledad para la siguiente generacion    if celula <=0   (1)
-    
-3.- una celula viva que tiene 4 o mas vecinos vivos, muere por sobrepoblacion para la
-    siguiente generacion                                    (2)                                               
-     
-4.- una celula muerta con exactamente 3 vecinos resulta en un nacimiento cuya vida
-    empezara en la siguiente generacion. Todas las celulas muertas restantes se mantienen
-    muertas la siguiente generacion                         (3)
-"""
 
 from Arrays2 import Array2D
 
