@@ -1,6 +1,6 @@
 
 
-from Arrays2 import Array2D
+from Array2D import Array2D
 
 # 0 --> muerta
 # 1 --> viva
